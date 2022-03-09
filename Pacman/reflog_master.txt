@@ -1,0 +1,42 @@
+9c1ce95 HEAD@{0}: checkout: moving from srinidhi to master
+9c35b7a HEAD@{1}: commit: reflog files of branches
+6eecdc8 HEAD@{2}: checkout: moving from master to srinidhi
+9c1ce95 HEAD@{3}: commit: BugFixing Done
+f860117 HEAD@{4}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Fast-forward
+65b7592 HEAD@{5}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Fast-forward
+3fa2f47 HEAD@{6}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Fast-forward
+f55b87c HEAD@{7}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Merge made by the 'recursive' strategy.
+0e8ca17 HEAD@{8}: commit (merge): game.py completed
+9f675c7 HEAD@{9}: checkout: moving from srinidhi to master
+6eecdc8 HEAD@{10}: checkout: moving from new to srinidhi
+6eecdc8 HEAD@{11}: checkout: moving from srinidhi to new
+6eecdc8 HEAD@{12}: commit: image added
+8922b19 HEAD@{13}: commit: Game sounds added
+d909925 HEAD@{14}: commit: game.py completed
+523c9c9 HEAD@{15}: commit: Displaying message feature added
+2415b60 HEAD@{16}: checkout: moving from master to srinidhi
+9f675c7 HEAD@{17}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Merge made by the 'recursive' strategy.
+78f5c83 HEAD@{18}: commit (merge): Conflict Resolved
+e69c930 HEAD@{19}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Fast-forward
+93548dd HEAD@{20}: checkout: moving from srinidhi to master
+2415b60 HEAD@{21}: checkout: moving from master to srinidhi
+93548dd HEAD@{22}: checkout: moving from srinidhi to master
+2415b60 HEAD@{23}: commit (amend): New commit message ammended
+4c6306d HEAD@{24}: commit: New commit
+8a51552 HEAD@{25}: commit: Commiting Stashed changes
+1ecc1e4 HEAD@{26}: commit: Commiting Stashed changes and new
+a13bc04 HEAD@{27}: checkout: moving from master to srinidhi
+93548dd HEAD@{28}: commit (merge): Merge confilict in main.py resolved
+55cd27b HEAD@{29}: merge srinidhi: Merge made by the 'recursive' strategy.
+3d54327 HEAD@{30}: checkout: moving from srinidhi to master
+a13bc04 HEAD@{31}: commit: Displaying game window function added
+37ccbea HEAD@{32}: reset: moving to HEAD
+37ccbea HEAD@{33}: commit: adding feature of Initializing game environment
+0079359 HEAD@{34}: commit: imported modules required
+f55b917 HEAD@{35}: checkout: moving from master to srinidhi
+3d54327 HEAD@{36}: pull origin master: Fast-forward
+f55b917 HEAD@{37}: merge srinidhi: Fast-forward
+95775ac HEAD@{38}: checkout: moving from srinidhi to master
+f55b917 HEAD@{39}: commit: main.py created
+95775ac HEAD@{40}: checkout: moving from master to srinidhi
+95775ac HEAD@{41}: initial pull
