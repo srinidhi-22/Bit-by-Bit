@@ -1,4 +1,5 @@
-:wqiimport pygame
+
+import pygame
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 576
@@ -56,7 +57,7 @@ class Player(pygame.sprite.Sprite):
                 self.change_x = 0
 
             # This will cause the animation to start
-
+            
             if self.change_x > 0:
                 self.move_right_animation.update(10)
                 self.image = self.move_right_animation.get_current_image()
@@ -76,7 +77,7 @@ class Player(pygame.sprite.Sprite):
                 self.game_over = True
             self.explosion_animation.update(12)
             self.image = self.explosion_animation.get_current_image()
-
+            
 
     def move_right(self):
         self.change_x = 3
@@ -110,6 +111,8 @@ class Player(pygame.sprite.Sprite):
             self.image = pygame.transform.rotate(self.player_image,270)
         self.change_y = 0
 
+
+
 class Animation(object):
     def __init__(self,img,width,height):
         # Load the sprite sheet
@@ -121,11 +124,11 @@ class Animation(object):
         self.index = 0
         # Create a variable that will hold the time
         self.clock = 1
-
+        
     def load_images(self,width,height):
         # Go through every single image in the sprite sheet
         for y in range(0,self.sprite_sheet.get_height(),height):
-            for x in range(0,self.sprite_sheet.get_width(),width):
+            for x in range(0,self.sprite_sheet.get_width(),width): 
                 # load images into a list
                 img = self.get_image(x,y,width,height)
                 self.image_list.append(img)
@@ -138,7 +141,7 @@ class Animation(object):
         # Assuming black works as the transparent color
         image.set_colorkey((0,0,0))
         # Return the image
-        return
+        return image
 
     def get_current_image(self):
         return self.image_list[self.index]
@@ -159,4 +162,3 @@ class Animation(object):
             self.index += 1
             if self.index == len(self.image_list):
                 self.index = 0
-
