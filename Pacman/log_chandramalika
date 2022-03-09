@@ -1,0 +1,362 @@
+chandramalika@chandramalika-IdeaPad-3-15ADA05:~/Desktop/project/Bit-by-Bit/Pacman$ git log
+commit 65b7592845c074933b9b5e1b51439fb97a4f857d (HEAD -> master)
+commit 65b7592845c074933b9b5e1b51439fb97a4f857d (HEAD -> master)
+Merge: 3fa2f47 c2784b9
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 23:12:51 2022 +0530
+
+    Merge branch 'chandramalika'
+
+commit 3fa2f47a0f9256451f67c7b2cc60388ed3ca8600
+Merge: 15c1c64 f55b87c
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 23:02:24 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit 15c1c64e02c47bb3c4a92634526509e683857f06
+Merge: ed80d5d c8e6f0f
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 23:02:12 2022 +0530
+
+    Merge branch 'nancy'
+
+commit f55b87c9be2f9ece5dea237e84a7461a907d7c86
+Merge: 0e8ca17 ed80d5d
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 23:01:58 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit c8e6f0f287a0a86561817b29506e70a6c6d2fad7
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 23:01:46 2022 +0530
+
+    adding main window function after using reset
+
+commit 0e8ca176c8fe993d236b3d18a940073a182af699
+Merge: 9f675c7 6eecdc8
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 23:01:33 2022 +0530
+
+     game.py completed
+
+commit c2784b94a058e2fadaa10da00b5118dc85fe64fc (chandramalika)
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:49:23 2022 +0530
+
+    explosion pic
+
+commit c06450d7e6cd4432fa076f7629b75aeb8c4199d7
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:48:50 2022 +0530
+
+    walk pic
+
+commit ed80d5d78ba8d8094f56d3073b75c12d265d97e7
+Merge: 2a0e20e bd963c7
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:43:30 2022 +0530
+
+    Merge branch 'nancy'
+
+commit bd963c7594b43de88ebb6596d595249ab1bc9d25
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:43:11 2022 +0530
+
+    adding intersections points of player and enemy
+
+commit e7e9adc61a8209a21768b1f20a9e00e1ad81db2a
+Merge: de57fe6 abaab76
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:40:49 2022 +0530
+
+    player file modified
+
+commit 2a0e20eb9747ed3a35aacf5d1002f4abb7849177
+Merge: 9065244 1b2af68
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:37:50 2022 +0530
+
+    Merge branch 'nancy'
+
+commit 1b2af688a12f7efd71cffea3c0d89fbc8a1ee3e6
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:37:36 2022 +0530
+
+    adding the directions function again after reverting
+
+commit 6eecdc8e3eb0892a31f66f185b0200f98df05afb
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:34:29 2022 +0530
+
+    image added
+
+commit efb38701803b27e085e9a3e88448e26147fdc035
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:33:12 2022 +0530
+
+    Revert "adding directions to enemy in file"
+    
+    This reverts commit 89b35f291855201594d037681d6047c19d8f8345.
+
+commit 8922b1990e9710e9b654037cec9e4946816a8301
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:32:14 2022 +0530
+
+    Game sounds added
+
+commit 906524403bc2ce0843af18875ff99f6353886ae5
+Merge: 89b35f2 9f675c7
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:31:32 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit 89b35f291855201594d037681d6047c19d8f8345
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:30:41 2022 +0530
+
+    adding directions to enemy in file
+
+commit d9099258ed6387ee96a28f011097b78c45efa49d
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:30:03 2022 +0530
+
+    game.py completed
+
+commit 523c9c9add93d0a141ab2df74bcc3cfd7067fe59
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:28:50 2022 +0530
+
+    Displaying message feature added
+
+commit de57fe6d63d9250370d485f074600433daf5e2dd
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:25:26 2022 +0530
+
+    player file
+
+commit 9f675c72b272cb31aed44e79cdb6d5703bbbd412
+Merge: 78f5c83 33de98b
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:24:32 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit 78f5c83dc49e6069efa598ec392d2d89c8b88206
+Merge: e69c930 2415b60
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:24:10 2022 +0530
+
+    Conflict Resolved
+
+commit 33de98bae80027f959c0bebd1e24072572614cec
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 22:19:17 2022 +0530
+
+    added the image slime.png
+
+commit b37ed10e594fc8be1462ff82476a6b4a1b5eb68a
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:17:03 2022 +0530
+
+    player file
+
+commit cb2579fa003c9d54dd4ae2727860ec0e8f8d9edc
+Merge: 42de1db e69c930
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:14:57 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit into chandramalika
+
+commit 42de1dbc508b3755c53e2c46db5c224b96939bbe
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:13:37 2022 +0530
+
+    player file
+
+commit e69c9301710c1661fd7f68678884f59d531f7e12
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 19:04:22 2022 +0530
+
+    cherrypicked game.py file
+
+commit 2967e51c92b5f11b842eb740dea596dcc1c670fb
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 22:08:39 2022 +0530
+
+    player.py file
+
+commit 2415b60c8a9dd2ebfcbae51c63c782c816dd0795
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 22:04:48 2022 +0530
+
+    New commit message ammended
+
+commit be0d6a633a7ca55b76f349368319347079d44482
+Merge: a7186b8 a956872
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 21:59:18 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit into chandramalika
+
+commit 8a515522a11984006ecdc01822c18a11a6cfe2d2
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 21:56:45 2022 +0530
+
+    Commiting Stashed changes
+
+commit a7186b86126cc85bdb4d117c9f6271f063f59613
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 21:35:20 2022 +0530
+
+    changed commit using git amend (from adding animation to player)
+
+commit 1ecc1e4fc4b53b2df824de2ef7d80d12c03d8dc5
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 21:49:49 2022 +0530
+
+    Commiting Stashed changes and new
+
+commit a95687220ccb1c0a2beacbda8dc81aba5a5d95f1
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:49:12 2022 +0530
+
+    defining constructor
+
+commit 37c167912cdfab1977e30a72db406b50280d3c00
+Merge: bbd811f 93548dd
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:42:00 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit bbd811fa898fff72cea8e7b33a7b70d136030f4f
+Merge: 18604f6 2548646
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:41:21 2022 +0530
+
+    Merge branch 'nancy'
+
+commit 25486463ebaebe648b94b976a417264f9d35eb1e
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:41:06 2022 +0530
+
+    deleted the pacman.py file
+
+commit abaab76cc398df97dbf094ea4ed5f0e704ba931c (origin/chandramalika)
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 21:35:20 2022 +0530
+
+    adding animation to player
+
+commit 937ae8a55b789614fa5a7086ecd3f2a64a26259d
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:29:10 2022 +0530
+
+    creating pacman.py file
+
+commit 93548dd07f7eff1e188fb291f7652e7ad3f331c9
+Merge: 55cd27b 18604f6
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 21:16:34 2022 +0530
+
+    Merge confilict in main.py resolved
+
+commit 55cd27be5e7bd85cc13b2d4363a8332d5458ade7
+Merge: 3d54327 a13bc04
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 21:10:44 2022 +0530
+
+    Merge branch 'srinidhi'
+
+commit 18604f6cd8e67295de4af0d2d7a9347536d7a27b
+Merge: 4851146 9f4a8c4
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:10:40 2022 +0530
+
+    Merge branch 'nancy'
+
+commit 9f4a8c46582929b93908a450776554c030b71f29
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 21:09:23 2022 +0530
+
+    adding features to main.py
+
+commit a13bc04c067e93937512212782298274d99fb666
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 21:08:08 2022 +0530
+
+    Displaying game window function added
+
+commit 1a501150f8e338aba68ae8097bd77e79d89d7143 (tag: t2)
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 21:02:01 2022 +0530
+
+    commiting the file after stashing
+
+commit 48511469c1ed9cf9fdb5a103ab73a1809f5bfc5c
+Merge: f6bc086 9c93866
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 19:50:29 2022 +0530
+
+    Merge https://github.com/srinidhi-22/Bit-by-Bit
+
+commit 37ccbea9cd08194bf94733cda54cd62407d9ae92
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 19:15:01 2022 +0530
+
+    adding feature of Initializing game environment
+
+commit f6bc086717d4b172c163933482e82944844ac976
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Wed Mar 9 19:10:56 2022 +0530
+
+    adding background to enemy file
+
+commit 9c938663ffd579ce77e5df1dc25d07d3bc175498 (tag: t1)
+Author: Your Name <you@example.com>
+Date:   Wed Mar 9 19:08:13 2022 +0530
+
+    creating player
+
+commit 0079359bd2a54defd256aa3dd7cf150e697edfc8
+Author: srinidhi <you@example.com>
+Date:   Wed Mar 9 19:04:22 2022 +0530
+
+    imported modules required
+
+commit 5b8bb7e36ffc0629838096d7d70d5b07e680d66d
+Author: Your Name <you@example.com>
+Date:   Tue Mar 8 21:39:31 2022 +0530
+
+    imported modules in player.py
+
+commit 62ba8e62ba0bdb4725cf1b5aa60bffbc378b515a (origin/nancy)
+Author: Nancy <nancygupta@iitbhilai.ac.in>
+Date:   Tue Mar 8 19:47:31 2022 +0530
+
+    imported modules
+
+commit 3d5432782e9b0df055159789a06b8dc1d89e5670 (origin/master, origin/HEAD)
+Merge: 95775ac f55b917
+Author: Srinidhi Krishna Mundru <93401031+srinidhi-22@users.noreply.github.com>
+Date:   Tue Mar 8 19:36:35 2022 +0530
+
+    Merge pull request #1 from srinidhi-22/srinidhi
+    
+    main.py created
+
+commit f55b917c67fa6db900147eb645b275abd077ec6b (origin/srinidhi)
+Author: srinidhi <you@example.com>
+Date:   Tue Mar 8 19:17:33 2022 +0530
+
+    main.py created
+
+commit 95775ac763bd25ecdf75a1695e6bc16dc0232fb7
+Author: Srinidhi Krishna Mundru <93401031+srinidhi-22@users.noreply.github.com>
+Date:   Tue Mar 8 19:13:52 2022 +0530
+
+    Initial commit
+
