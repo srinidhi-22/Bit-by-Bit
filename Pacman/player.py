@@ -158,4 +158,5 @@ class Animation(object):
             # Increase index
             self.index += 1
             if self.index == len(self.image_list):
-                self.index = 0   
+                self.index = 0
+
