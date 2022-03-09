@@ -58,3 +58,4 @@ class Game(object):
         # Load the sound effects
         self.pacman_sound = pygame.mixer.Sound("pacman_sound.ogg")
         self.game_over_sound = pygame.mixer.Sound("game_over_sound.ogg")
+
