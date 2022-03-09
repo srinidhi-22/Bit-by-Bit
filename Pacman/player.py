@@ -1,4 +1,4 @@
-import pygame
+:wqiimport pygame
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 576
@@ -138,7 +138,7 @@ class Animation(object):
         # Assuming black works as the transparent color
         image.set_colorkey((0,0,0))
         # Return the image
-        return image
+        return
 
     def get_current_image(self):
         return self.image_list[self.index]
@@ -159,5 +159,4 @@ class Animation(object):
             self.index += 1
             if self.index == len(self.image_list):
                 self.index = 0
-
 
