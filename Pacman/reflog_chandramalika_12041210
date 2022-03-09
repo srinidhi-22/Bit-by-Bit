@@ -1,0 +1,41 @@
+chandramalika@chandramalika-IdeaPad-3-15ADA05:~/Desktop/project/Bit-by-Bit/Pacman$ git reflog
+65b7592 (HEAD -> master) HEAD@{0}: merge chandramalika: Merge made by the 'recursive' strategy.
+3fa2f47 HEAD@{1}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Fast-forward
+9c93866 (tag: t1) HEAD@{2}: checkout: moving from chandramalika to master
+c2784b9 (chandramalika) HEAD@{3}: commit: explosion pic
+c06450d HEAD@{4}: commit: walk pic
+e7e9adc HEAD@{5}: commit (merge): player file modified
+de57fe6 HEAD@{6}: commit: player file
+b37ed10 HEAD@{7}: reset: moving to HEAD
+b37ed10 HEAD@{8}: commit: player file
+cb2579f HEAD@{9}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Merge made by the 'recursive' strategy.
+42de1db HEAD@{10}: commit: player file
+2967e51 HEAD@{11}: checkout: moving from master to chandramalika
+9c93866 (tag: t1) HEAD@{12}: checkout: moving from chandramalika to master
+2967e51 HEAD@{13}: commit: player.py file
+be0d6a6 HEAD@{14}: reset: moving to HEAD
+be0d6a6 HEAD@{15}: reset: moving to HEAD
+be0d6a6 HEAD@{16}: pull https://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@github.com/srinidhi-22/Bit-by-Bit.git: Merge made by the 'recursive' strategy.
+a7186b8 HEAD@{17}: commit (amend): changed commit using git amend (from adding animation to player)
+68c4cf7 HEAD@{18}: commit (amend): adding animation to player
+abaab76 (origin/chandramalika) HEAD@{19}: commit: adding animation to player
+1a50115 (tag: t2) HEAD@{20}: commit: commiting the file after stashing
+9c93866 (tag: t1) HEAD@{21}: reset: moving to HEAD
+9c93866 (tag: t1) HEAD@{22}: checkout: moving from master to chandramalika
+9c93866 (tag: t1) HEAD@{23}: checkout: moving from chandramalika to master
+9c93866 (tag: t1) HEAD@{24}: checkout: moving from master to chandramalika
+9c93866 (tag: t1) HEAD@{25}: reset: moving to HEAD
+9c93866 (tag: t1) HEAD@{26}: checkout: moving from chandramalika to master
+9c93866 (tag: t1) HEAD@{27}: reset: moving to HEAD
+9c93866 (tag: t1) HEAD@{28}: checkout: moving from master to chandramalika
+9c93866 (tag: t1) HEAD@{29}: reset: moving to HEAD
+9c93866 (tag: t1) HEAD@{30}: merge chandramalika: Fast-forward
+5b8bb7e HEAD@{31}: checkout: moving from chandramalika to master
+9c93866 (tag: t1) HEAD@{32}: checkout: moving from master to chandramalika
+5b8bb7e HEAD@{33}: checkout: moving from chandramalika to master
+9c93866 (tag: t1) HEAD@{34}: commit: creating player
+5b8bb7e HEAD@{35}: checkout: moving from master to chandramalika
+5b8bb7e HEAD@{36}: reset: moving to HEAD
+5b8bb7e HEAD@{37}: commit: imported modules in player.py
+3d54327 (origin/master, origin/HEAD) HEAD@{38}: clone: from https://github.com/srinidhi-22/Bit-by-Bit.git
+
