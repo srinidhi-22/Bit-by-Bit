@@ -1,7 +1,7 @@
 import pygame
 from game import Game
-SCREEN_WIDTH = 400
-SCREEN_HEIGHT = 400
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 576
 
 def main():
     # Initialize all imported pygame modules
