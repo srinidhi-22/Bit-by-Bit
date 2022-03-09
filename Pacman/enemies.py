@@ -105,7 +105,7 @@ def enviroment():
 
     return grid
 
-def draw_enviroment(screen)
+def draw_enviroment(screen):
     for i,row in enumerate(enviroment()):
         for j,item in enumerate(row):
             if item == 1:
