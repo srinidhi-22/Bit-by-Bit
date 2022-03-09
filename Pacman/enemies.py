@@ -74,7 +74,14 @@ class Slime(pygame.sprite.Sprite):
                 self.change_x = 0
                 self.change_y = 2
                 
+    def get_intersection_position(self):
+        items = []
+        for i,row in enumerate(enviroment()):
+            for j,item in enumerate(row):
+                if item == 3:
+                    items.append((j*32,i*32))
 
+        return items
 
  
 
