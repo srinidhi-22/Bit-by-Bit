@@ -125,4 +125,47 @@ class Game(object):
             self.game_over = self.player.game_over
             self.enemies.update(self.horizontal_blocks,self.vertical_blocks)
            # tkMessageBox.showinfo("GAME OVER!","Final Score = "+(str)(GAME.score))    
+    def display_frame(self,screen):
+        # First, clear the screen to white. Don't put other drawing commands
+        screen.fill(BLACK)
+        # --- Drawing code should go here
+        if self.game_over:
+            if self.about:
+                self.display_message(screen,"It is an arcade Game")
+                #"a maze containing various dots,\n"
+                #known as Pac-Dots, and four ghosts.\n"
+                #"The four ghosts roam the maze, trying to kill Pac-Man.\n"
+                #"If any of the ghosts hit Pac-Man, he loses a life;\n"
+                #"the game is over.\n")
+            else:
+                self.menu.display_frame(screen)
+        else:
+            # --- Draw the game here ---
+            self.horizontal_blocks.draw(screen)
+            self.vertical_blocks.draw(screen)
+            draw_enviroment(screen)
+            self.dots_group.draw(screen)
+            self.enemies.draw(screen)
+            screen.blit(self.player.image,self.player.rect)
+            #text=self.font.render("Score: "+(str)(self.score), 1,self.RED)
+            #screen.blit(text, (30, 650))
+            # Render the text for the score
+            text = self.font.render("Score: " + str(self.score),True,GREEN)
+            # Put the text on the screen
+            screen.blit(text,[120,20])
+            
+        # --- Go ahead and update the screen with what we've drawn.
+        pygame.display.flip()
+
+    def display_message(self,screen,message,color=(255,0,0)):
+        label = self.font.render(message,True,color)
+        # Get the width and height of the label
+        width = label.get_width()
+        height = label.get_height()
+        # Determine the position of the label
+        posX = (SCREEN_WIDTH /2) - (width /2)
+        posY = (SCREEN_HEIGHT /2) - (height /2)
+        # Draw the label onto the screen
+        screen.blit(label,(posX,posY))
+
 
