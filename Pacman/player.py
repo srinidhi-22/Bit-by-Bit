@@ -110,3 +110,32 @@ class Player(pygame.sprite.Sprite):
             self.image = pygame.transform.rotate(self.player_image,270)
         self.change_y = 0
 
+class Animation(object):
+    def __init__(self,img,width,height):
+        # Load the sprite sheet
+        self.sprite_sheet = img
+        # Create a list to store the images
+        self.image_list = []
+        self.load_images(width,height)
+        # Create a variable which will hold the current image of the list
+        self.index = 0
+        # Create a variable that will hold the time
+        self.clock = 1
+
+    def load_images(self,width,height):
+        # Go through every single image in the sprite sheet
+        for y in range(0,self.sprite_sheet.get_height(),height):
+            for x in range(0,self.sprite_sheet.get_width(),width):
+                # load images into a list
+                img = self.get_image(x,y,width,height)
+                self.image_list.append(img)
+
+    def get_image(self,x,y,width,height):
+        # Create a new blank image
+        image = pygame.Surface([width,height]).convert()
+        # Copy the sprite from the large sheet onto the smaller
+        image.blit(self.sprite_sheet,(0,0),(x,y,width,height))
+        # Assuming black works as the transparent color
+        image.set_colorkey((0,0,0))
+        # Return the image
+        return image
