@@ -1,5 +1,5 @@
 # Bit-by-Bit
-A Python Game Project
+A Python Game Project (pacman)
 
 This project contains files named as:: <br />
 1)enemies.py created from the branch nancy . It contains all the functions performed by enemy <br />
